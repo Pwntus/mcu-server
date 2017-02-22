@@ -1,0 +1,18 @@
+{
+  "name": "mcu-server",
+  "version": "1.0.0",
+  "description": "Client utilising CloudConnect to subscribe and publish messages to thing topics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sub": "node lib/sub.js -u <> -P <> -v -a 064445364562 -e prod -s '$aws/things/00000273/shadow/update/accepted'"
+  },
+  "author": "Pontus Aurdal",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.4.0",
+    "stdio": "^0.2.7",
+    "winston": "^2.3.1"
+  }
+}
