@@ -3,16 +3,18 @@
 ## Install local cloud-connect npm module
 
 ```bash
-~$ cd cloud-connect
-~/cloud-connect$ sudo npm link && cd ..
-~$ npm link cloud-connect
-~$ npm install
+$ cd cloud-connect
+/cloud-connect$ sudo npm link && cd ..
+$ npm link cloud-connect
+$ npm install
 ```
 
 ### Run cloud-connect subscribe
 
+Configure Cloud Connect credentials and pub/sub path in `package.json`.
+
 ```bash
-~$ npm run sub
+$ npm run sub
 ```
 
 ### Subscribe path
