@@ -1,12 +1,11 @@
 {
-  "name": "mcu-server",
+  "name": "cc-cognito-mqtt",
   "version": "1.0.0",
-  "description": "Client utilising CloudConnect to subscribe and publish messages to thing topics",
+  "description": "Client utilising Cloud Connect to subscribe and publish messages to thing topics",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no index specified\" && exit 1",
+    "start": "node lib/cognito.js -u <username> -P <password> -v -a 064445364562 -e prod -s '<sub path>' -p '<pub path>'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sub": "node lib/cognito.js -u <username> -P <password> -v -a 064445364562 -e prod -s '<sub path>' -p '<pub path>'"
   },
   "author": "Pontus Aurdal",
   "license": "ISC",

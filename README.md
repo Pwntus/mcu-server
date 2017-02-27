@@ -1,25 +1,23 @@
 # MQTT client with Cloud Connect cognito authentication
 
-## Install local cloud-connect npm module
+Demonstration on how to use the `cloud-connect` Node.js module to authenticate with Cognito identity.
+
+## Install local cloud-connect NPM module
 
 ```bash
 $ cd cloud-connect
-/cloud-connect$ sudo npm link && cd ..
+/cloud-connect$ npm link && cd ..
 $ npm link cloud-connect
 $ npm install
 ```
 
 ### Run cloud-connect subscribe
 
-```bash
-$ npm run sub
+```
+$ node lib/cognito.js -u <CC username> -P <CC password> -v -a 064445364562 -e prod -s '<sub topic>' -p '<pub topic>'
 ```
 
-Configure Cloud Connect credentials and pub/sub path in `package.json`.
-
-#### Subscribe path
-
-> Replace dash `-` with whitespace.
+#### MQTT topic format
 
 ```
 pub/<root domain>/<sub domain>/<thing name>
@@ -28,3 +26,5 @@ sub/<root domain>/<sub domain>/<thing name>
 E.g.
 sub/UIT IFI course/pau001/00000273
 ```
+
+*N.B.* Replace dash `-` with whitespace.
