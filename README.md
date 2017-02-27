@@ -13,5 +13,7 @@
 
 > Replace dash `-` with whitespace.
 
+```
 pub/<root domain>/<sub domain>/<thing name>
 sub/<root domain>/<sub domain>/<thing name>
+```
