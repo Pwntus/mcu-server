@@ -11,13 +11,13 @@ $ npm install
 
 ### Run cloud-connect subscribe
 
-Configure Cloud Connect credentials and pub/sub path in `package.json`.
-
 ```bash
 $ npm run sub
 ```
 
-### Subscribe path
+Configure Cloud Connect credentials and pub/sub path in `package.json`.
+
+#### Subscribe path
 
 > Replace dash `-` with whitespace.
 
