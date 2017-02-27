@@ -111,8 +111,7 @@ class CloudConnect extends EventEmitter {
       maximumReconnectTimeMs: 8000,
       accessKeyId,
       secretKey: secretAccessKey,
-      sessionToken,
-      debug: true
+      sessionToken
     });
 
     this.mqtt = mqtt;
