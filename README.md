@@ -19,13 +19,13 @@ $ node lib/cognito.js -u <CC username> -P <CC password> -v -a 064445364562 -e pr
 
 #### MQTT topic format
 
-pub/<root domain>/<sub domain>/<thing name>
+`pub/<root domain>/<sub domain>/<thing name>`
 
-sub/<root domain>/<sub domain>/<thing name>
+`sub/<root domain>/<sub domain>/<thing name>`
 
 
 E.g.
 
-sub/UIT IFI course/pau001/00000273
+`sub/UIT IFI course/pau001/00000273`
 
 **N.B.** Replace dash `-` with whitespace.
