@@ -4,7 +4,7 @@ Demonstration on how to use the `cloud-connect` Node.js module to authenticate w
 
 ## Install local cloud-connect NPM module
 
-```bash
+```
 $ cd cloud-connect
 /cloud-connect$ npm link && cd ..
 $ npm link cloud-connect
