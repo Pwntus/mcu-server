@@ -9,6 +9,12 @@
 ~$ npm install
 ```
 
+### Run cloud-connect subscribe
+
+```bash
+~$ npm run sub
+```
+
 ### Subscribe path
 
 > Replace dash `-` with whitespace.
