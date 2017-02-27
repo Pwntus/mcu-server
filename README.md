@@ -1,4 +1,4 @@
-# mcu-server
+# MQTT client with Cloud Connect cognito authentication
 
 ## Install local cloud-connect npm module
 
