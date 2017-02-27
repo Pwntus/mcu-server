@@ -4,9 +4,9 @@
   "description": "Client utilising CloudConnect to subscribe and publish messages to thing topics",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "echo \"Error: no index specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sub": "node lib/sub.js -u <> -P <> -v -a 064445364562 -e prod -s '$aws/things/00000273/shadow/update/accepted'"
+    "sub": "node lib/cognito.js -u <username> -P <password> -v -a 064445364562 -e prod -s 'sub/UIT IFI course/pau001/00000273' -p 'pub/UIT IFI course/pau001/00000273'"
   },
   "author": "Pontus Aurdal",
   "license": "ISC",

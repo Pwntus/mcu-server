@@ -47,7 +47,7 @@ mqttc.on_subscribe = on_subscribe
 #  awshost = "a31ovqfkmg1ev8.iot.eu-west-1.amazonaws.com"
 awshost = "a3k7odshaiipe8.iot.eu-west-1.amazonaws.com"
 awsport = 8883
-caPath = "./things/root.crt"
+caPath = "./things/root.pem"
 certPath = "./things/"+thing+"/cert.pem"
 keyPath = "./things/"+thing+"/privkey.pem"
 print("SSL version: "+ssl.OPENSSL_VERSION)
