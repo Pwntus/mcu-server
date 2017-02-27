@@ -24,4 +24,7 @@ $ npm run sub
 ```
 pub/<root domain>/<sub domain>/<thing name>
 sub/<root domain>/<sub domain>/<thing name>
+
+E.g.
+sub/UIT IFI course/pau001/00000273
 ```

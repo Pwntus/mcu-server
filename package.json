@@ -6,7 +6,7 @@
   "scripts": {
     "start": "echo \"Error: no index specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sub": "node lib/cognito.js -u <username> -P <password> -v -a 064445364562 -e prod -s 'sub/UIT IFI course/pau001/00000273' -p 'pub/UIT IFI course/pau001/00000273'"
+    "sub": "node lib/cognito.js -u <username> -P <password> -v -a 064445364562 -e prod -s '<sub path>' -p '<pub path>'"
   },
   "author": "Pontus Aurdal",
   "license": "ISC",
