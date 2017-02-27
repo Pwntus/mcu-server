@@ -8,3 +8,10 @@
 ~$ npm link cloud-connect
 ~$ npm install
 ```
+
+### Subscribe path
+
+> Replace dash `-` with whitespace.
+
+pub/<root domain>/<sub domain>/<thing name>
+sub/<root domain>/<sub domain>/<thing name>
